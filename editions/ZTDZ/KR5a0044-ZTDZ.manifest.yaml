@@ -1,0 +1,39 @@
+canonical_identifier: bkk:krp/KR5a0044/ZTDZ/v1
+canonical_location: https://kanripo.org/bkk/KR5a0044/ZTDZ/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 太上洞真五星秘授經
+  date: '2015-08-28 23:35:19.098172'
+  source:
+    repository: kanripo
+    path: KR5a0044
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+  edition:
+    short: ZTDZ
+    label: 【正統道藏・三家本】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5a0044_000-ZTDZ.yaml, hash: 'sha256:17ede8f67154c0aae7992373de80f94e4fa0b0717b31235608a8fea88132a3a7'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5a0044_000-ZTDZ.markers.yaml, hash: 'sha256:3e846ea03c215d35f36febaf351115a5dec63c1c9775e1d9bb5d6077956e2af6'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5a0044_SJB_000-010870b
+    span:
+    - body
+    - 0
+    - 1345
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:a22dc364e718c375148275433ed9a5f861658be7ead9a63b0d98989b6fc416ce
